@@ -7,15 +7,57 @@
     <Filter Include="src">
       <UniqueIdentifier>{6bb8c28d-e6f4-48e1-bd98-182f95b57922}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\Storage">
+      <UniqueIdentifier>{baf61d6d-911b-4cd0-a357-fa16af9a2276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Storage">
+      <UniqueIdentifier>{62df2102-f571-4849-8294-5c1e67f058a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\View">
+      <UniqueIdentifier>{468241d3-2145-4cfa-985f-0a380394dd7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Resource">
+      <UniqueIdentifier>{a51e3a5f-e6dc-4580-9b32-6e115661ad26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Resource">
+      <UniqueIdentifier>{e7cf8be8-1b36-479a-b4c0-4eb8508a3458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\View">
+      <UniqueIdentifier>{4543b53a-7584-4f15-8228-286ffe4dce35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Load">
+      <UniqueIdentifier>{72efedd5-1b71-4c22-9a18-c006fd3eb028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Load">
+      <UniqueIdentifier>{cb7579ec-6783-4a26-b35a-028743bcac43}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ResourceManager.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="include\Storage\ResourceStorage.h">
+      <Filter>include\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resource\Resource.h">
+      <Filter>include\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="include\View\Viewer.h">
+      <Filter>include\View</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Load\Loader.h">
+      <Filter>include\Load</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ResourceManager.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Storage\ResourceStorage.cpp">
+      <Filter>src\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Resource\Resource.cpp">
+      <Filter>src\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\Viewer.cpp">
+      <Filter>src\View</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
