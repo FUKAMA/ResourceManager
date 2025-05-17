@@ -2,7 +2,7 @@
 # build/
 vs/
 lib/
-external/
+# external/
 packages/
 CMakeFiles/
 x64/
